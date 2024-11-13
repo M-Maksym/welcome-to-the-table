@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Welcome to the Table
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the Table is a fun and challenging game where the player's mission is to arrange as many dishes as possible on a crowded table before time runs out. Inspired by the hectic experience of hosting guests with lots of delicious food, this game tests your speed, coordination, and strategy in maximizing space on the table.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Object Drag and Drop:** Intuitive drag-and-drop functionality to place dishes on the table.
+- **Vibration Feedback:** Vibration feedback for a more immersive user experience.
+- **Page Navigation with Expo Router:** Smooth transitions between game screens using Expo Router.
+- **User Data Storage with AsyncStorage:** Stores user progress and settings locally to enhance the gaming experience.
 
+## Technologies Used
+
+- **React Native:** Built with React Native for a seamless, cross-platform experience.
+- **Expo Framework:** Developed with Expo, leveraging its powerful suite of tools for React Native.
+  
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/M-Maksym/welcome-to-the-table.git
+   cd welcome-to-the-table
+   ```
+
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Run the App:**
    ```bash
-    npx expo start
+   expo start
    ```
+   This command will start the Expo development server. Use an emulator or the Expo Go app on your mobile device to test the game.
 
-In the output, you'll find options to open the app in a
+## How to Play
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Launch the game and start with an empty table.
+2. Dishes will appear that you can drag and drop onto the table.
+3. Arrange as many dishes as you can before time runs out, maximizing table space and managing placement wisely.
+4. Score points based on the number of dishes successfully placed on the table.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contributing
 
-## Get a fresh project
+We welcome contributions! Feel free to open issues or submit pull requests to improve the game.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Let me know if you need any adjustments!
