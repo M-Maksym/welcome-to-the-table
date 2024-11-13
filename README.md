@@ -2,6 +2,11 @@
 
 Welcome to the Table is a fun and challenging game where the player's mission is to arrange as many dishes as possible on a crowded table before time runs out. Inspired by the hectic experience of hosting guests with lots of delicious food, this game tests your speed, coordination, and strategy in maximizing space on the table.
 
+<img width="432" alt="1" src="https://github.com/user-attachments/assets/c06f19c7-daf8-46ce-9424-08cf928b1894">
+<img width="428" alt="2" src="https://github.com/user-attachments/assets/0f15e25a-5a27-4012-a5bf-a0145545d92f">
+
+<img width="440" alt="3" src="https://github.com/user-attachments/assets/e981bbcf-072d-448e-83fe-e383ce0bc693">
+
 ## Features
 
 - **Object Drag and Drop:** Intuitive drag-and-drop functionality to place dishes on the table.
