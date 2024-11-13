@@ -12,23 +12,36 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+        tabBarInactiveTintColor: '#D1C4E9',
+        tabBarStyle: {
+          backgroundColor: '#3E2723',
+          borderTopWidth: 0,
+          height: 80,
+        },
+        tabBarLabelStyle: {
+          fontSize: 14,
+          fontFamily: 'monospace',
+          color: '#FFD700',
+          fontWeight:'700'
+        },
         headerShown: false,
-      }}>
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Досягнення',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={focused ? '#FFD700' : color} />
           ),
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
+          title: 'Гра',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'fast-food' : 'fast-food-outline'} color={focused ? '#FFD700' : color} />
           ),
         }}
       />
